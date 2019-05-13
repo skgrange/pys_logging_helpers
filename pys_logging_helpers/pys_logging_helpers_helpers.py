@@ -2,6 +2,7 @@
 import time, datetime, pytz
 from math import floor
 import gc
+import os
 
 # Function to sleep until the start of the next minute. 
 # 
@@ -75,3 +76,9 @@ def date_unix(integer = False):
 
   return date
 
+
+def create_directory(directory): 
+  if not os.path.exists(directory):
+    os.makedirs(directory)
+  else: 
+    pass
