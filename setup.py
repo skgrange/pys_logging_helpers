@@ -10,7 +10,6 @@ setup(
   license = 'GPL-3 | file LICENSE',
   packages = ['pys_logging_helpers'],
   install_requires = ['pytz'],
-  # scripts = [''],
   zip_safe = True
 )
 
