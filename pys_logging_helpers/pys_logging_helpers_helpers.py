@@ -16,8 +16,8 @@ def nice_starter(verbose = True):
   date_to_start = 60 - (date_run.second + date_run.microsecond / 1000000.0)
   
   if verbose:
-    print(str(date_unix(integer = True)) + \
-      ': Waiting until the beginning of the next minute (' + \
+    print(date_message() + \
+      'Waiting until the beginning of the next minute (' + \
       str(int(date_to_start)) + 
       ' seconds) before starting logging...')
     
