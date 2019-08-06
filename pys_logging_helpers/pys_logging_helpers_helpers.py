@@ -77,6 +77,18 @@ def date_unix(integer = False):
   return date
 
 
+def date_message():
+  
+  # Get date
+  date = date_unix()
+  
+  # To string
+  date = datetime.datetime.utcfromtimestamp(date).strftime('%Y-%m-%d %H:%M:%S UTC')
+  date = date + ': '
+  
+  return date
+
+
 def create_directory(directory): 
   if not os.path.exists(directory):
     os.makedirs(directory)

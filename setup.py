@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
   name = 'pys_logging_helpers',
-  version = '0.0.003',
+  version = '0.0.004',
   description = 'A collection of functions common to data logging programmes',
   url = 'http://github.com/skgrange/pys_logging_helpers',
   author = 'Stuart K. Grange',

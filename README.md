@@ -12,4 +12,3 @@ Use pip to install this package from GitHub:
 # Install the pys_logging_helpers package
 pip install git+https://github.com/skgrange/pys_logging_helpers
 ```
-
